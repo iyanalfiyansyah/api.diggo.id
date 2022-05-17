@@ -20,7 +20,6 @@ class Login extends REST_Controller
     public function index_get()
     {
         $email = $this->get('email');
-		//$email = 'alfiyansyah06@gmail.com';
         $password = $this->get('password');
 
         if ($email) {
